@@ -1,0 +1,15 @@
+import java.util.*;
+class threeone{
+    public static void main(String[] args){
+        System.out.println("Enter age: ");
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        sc.close();
+        if(age>=18){
+            System.out.println("Adult");
+        }
+        else{
+            System.out.println("Not an Adult");
+        }
+    }
+}
